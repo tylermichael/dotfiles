@@ -1,8 +1,12 @@
 #!/bin/bash
 
-brew install --cask dotnet-sdk
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew tap homebrew/cask-versions
+
 brew install --cask jetbrains-toolbox
 brew install --cask iterm2
+brew install --cask vscode
 brew install --cask github
 
 brew install node
